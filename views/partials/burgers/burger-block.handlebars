@@ -1,0 +1,8 @@
+<li>
+    {{this.burger_name}}
+    {{#if this.devoured}}
+    <button class="change-devour" data-id="{{this.id}}" data-newdevour="{{this.devoured}}">
+        DEVOUR!
+    </button>
+    {{/if}}
+</li>
